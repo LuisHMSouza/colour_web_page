@@ -19,8 +19,8 @@ header {
     padding: 6rem 6rem;
     color: hsl(208, 75%, 15%);
     background-color: : hsl(208, 75%, 25%);
-    background-image: url(https: //picsum.photos/g/458/354);
-        background-size: cover;
+    background-image: url(https://picsum.photos/g/458/354);
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
 }
