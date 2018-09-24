@@ -25,7 +25,7 @@ nav{
     padding:1rem 2rem;
     background-color: beige;
     font-size: 50px;
-    font-stretch: expanded;
+    align-items: stretch;
     
 }
 main{
