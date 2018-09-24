@@ -1,45 +1,67 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+
 *::after,
-*::before{
+*::before {
     box-sizing: inherit;
 }
-html{
+
+html {
     font-size: 16px;
     font-family: 'web font', 'osx fallback', 'win fallback', sans-serif;
     line-height: 1.5;
 }
-header{
-    padding:4rem 4rem;
+
+header {
+    padding: 6rem 6rem;
     color: hsl(208, 75%, 15%);
     background-color: : hsl(208, 75%, 25%);
-    background-image: url(https://picsum.photos/g/458/354);
-    background-size: cover;
+    background-image: url(https: //picsum.photos/g/458/354);
+        background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
 }
+
 a:link {
-    color:hsl(0, 100%, 100%);
-    text-decoration:none;
+    color: hsl(0, 100%, 100%);
+    text-decoration: none;
     padding: 1rem 3rem;
-    }
-nav{
-    padding:1rem 2rem;
-    background-color: hsl(200, 50%, 50%);
+}
+
+nav {
+    padding: 1rem 2rem;
+    background-color: hsl(200, 50%, 40%);
     font-size: 50px;
 }
-main{
-    padding:1rem 2rem;
+
+main {
+    padding: 1rem 2rem;
 }
-section{
-    padding:1rem 2rem;
+
+h1 {
+    font-weight: bold;
+    color: hsl(208, 75%, 25%);
+    font-size: 32px;
+    text-shadow: 2px 2px 2px hsl(208, 75%, 100%)
 }
-aside{
-    padding:1rem 2rem;
+
+h2 {
+    font-weight: bold;
+    color: hsl(208, 75%, 75%);
+    font-size: 24px;
 }
-footer{
-    padding:1rem 2rem;
+
+section {
+    padding: 1rem 2rem;
+}
+
+aside {
+    padding: 1rem 2rem;
+}
+
+footer {
+    padding: 1rem 2rem;
 }
