@@ -19,7 +19,7 @@ header {
     padding: 6rem 6rem;
     color: hsl(208, 75%, 15%);
     background-color: : hsl(208, 75%, 25%);
-    background-image: url(https://picsum.photos/g/458/354);
+    background-image: url(/img/354.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -31,10 +31,15 @@ a:link {
     padding: 1rem 3rem;
 }
 
+a:visited {
+    color: hsl(0, 100%, 100%);
+}
+
 nav {
     padding: 1rem 2rem;
-    background-color: hsl(200, 50%, 40%);
+    background-color: hsl(200, 40%, 40%);
     font-size: 50px;
+    border-bottom: 2rem solid hsl(208, 75%, 25%);
 }
 
 main {
@@ -44,14 +49,34 @@ main {
 h1 {
     font-weight: bold;
     color: hsl(208, 75%, 25%);
-    font-size: 32px;
+    font-size: 6rem;
     text-shadow: 2px 2px 2px hsl(208, 75%, 100%)
 }
 
 h2 {
     font-weight: bold;
     color: hsl(208, 75%, 75%);
-    font-size: 24px;
+    font-size: 4rem;
+    text-shadow: 2px 2px 2px hsl(208, 75%, 25%)
+}
+
+h3 {
+    padding: 2rem;
+    font-weight: bold;
+    color: hsl(208, 65%, 65%);
+    font-size: 3rem;
+}
+
+h4 {
+    padding: 2rem;
+    font-weight: bold;
+    color: hsl(208, 65%, 65%);
+    font-size: 1.5rem;
+}
+
+p {
+    padding: 2rem;
+    font-size: 2rem;
 }
 
 section {
