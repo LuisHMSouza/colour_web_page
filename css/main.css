@@ -16,7 +16,7 @@ html {
 }
 
 header {
-    padding: 6rem 6rem;
+    padding: 8rem 5rem;
     color: hsl(208, 75%, 15%);
     background-color: : hsl(208, 75%, 25%);
     background-image: url(../img/354.jpeg);
@@ -33,6 +33,10 @@ a:link {
 
 a:visited {
     color: hsl(0, 100%, 100%);
+}
+
+a.underlined {
+    text-decoration: underline;
 }
 
 nav {
@@ -61,22 +65,30 @@ h2 {
 }
 
 h3 {
-    padding: 2rem;
+    padding: 1rem 2rem;
     font-weight: bold;
     color: hsl(208, 65%, 65%);
     font-size: 3rem;
 }
 
 h4 {
-    padding: 2rem;
+    padding: 1rem 2rem;
     font-weight: bold;
     color: hsl(208, 65%, 65%);
     font-size: 1.5rem;
 }
 
-p {
-    padding: 2rem;
-    font-size: 2rem;
+p.differ {
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+    line-height: 2.5rem;
+}
+
+ul.small {
+    padding: 1rem 3rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
 }
 
 section {
