@@ -54,14 +54,14 @@ h1 {
     font-weight: bold;
     color: hsl(208, 75%, 25%);
     font-size: 6rem;
-    text-shadow: 2px 2px 2px hsl(208, 75%, 100%)
+    text-shadow: 2px 2px 2px hsl(208, 75%, 100%);
 }
 
 h2 {
     font-weight: bold;
     color: hsl(208, 75%, 75%);
     font-size: 4rem;
-    text-shadow: 2px 2px 2px hsl(208, 75%, 25%)
+    text-shadow: 2px 2px 2px hsl(208, 75%, 25%);
 }
 
 h3 {
